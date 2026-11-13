@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+
+    <TextView
+        android:id="@+id/tvPantalla"
+        android:gravity="end"
+        android:padding="16dp"
+        android:text="0"
+        android:textSize="48sp" />
+
+    <TableRow>
+        <Button
+            android:id="@+id/btnC"
+            android:layout_span="4"
+            android:text="C" />
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/btn7" android:text="7" />
+        <Button android:id="@+id/btn8" android:text="8" />
+        <Button android:id="@+id/btn9" android:text="9" />
+        <Button android:id="@+id/btnDiv" android:text="/" />
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/btn4" android:text="4" />
+        <Button android:id="@+id/btn5" android:text="5" />
+        <Button android:id="@+id/btn6" android:text="6" />
+        <Button android:id="@+id/btnMulti" android:text="*" />
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/btn1" android:text="1" />
+        <Button android:id="@+id/btn2" android:text="2" />
+        <Button android:id="@+id/btn3" android:text="3" />
+        <Button android:id="@+id/btnResta" android:text="-" />
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/btn0" android:text="0" />
+        <Button android:id="@+id/btnPunto" android:text="." />
+        <Button android:id="@+id/btnIgual" android:text="=" />
+        <Button android:id="@+id/btnSuma" android:text="+" />
+    </TableRow>
+
+</TableLayout>
